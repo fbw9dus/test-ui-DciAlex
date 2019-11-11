@@ -1,0 +1,157 @@
+
+@font-face{
+    font-family:"Gotham Rounded Bold";
+    src:url("../fonts/Gotham-Rounded/GothamRoundedBold_21016.ttf");
+
+}
+
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+    font-family:"Gotham Rounded Bold";
+    height: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+nav{
+    display: flex-end;
+    justify-content: center;
+    background-color: white;
+    
+}
+.ul-nav{
+    display: flex;
+    background-color: white;
+    margin: auto;
+    
+}
+.ul-nav img{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5rem;
+}
+.ul-nav p{
+    color: purple;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-left: .5rem;
+}
+.navigation{
+    display: flex;
+    margin: .1rem;
+    margin-right: 5rem;
+    
+}
+.navigation li{
+    list-style: none;
+    margin: 2rem;
+    margin-right: 5rem;
+}
+.navigation li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+.navigation li a:hover{
+color: purple;
+}
+main{
+    display: flex;
+    margin: auto;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+      }
+}
+////Text///
+.main-text{
+    margin-top: auto;
+    margin-bottom: aut;
+    font-size: large;
+    color: white;
+}
+////login info///
+// #sign-in{
+//     color: white;
+// }
+.container-sign-in{
+    margin-top: 5rem;
+    height: 25rem;
+    width: 40rem;
+    background-color: white;
+    margin-right: 10rem;
+    display: block;
+    border-radius: 10px;
+    border: solid white;
+}
+.container-sign-in input{
+     height: 2rem;
+     border-radius: 5px;
+     font-size: 1.3rem;
+     margin: .4rem;
+}
+.container-sign-in value{
+    margin: .4rem;
+}
+.sign-in-text{
+    background: rgb(245, 242, 242);
+    height: 3rem;
+    color: rgb(153, 146, 146);
+    text-align: center;
+    position: relative;
+}
+.sign-in-text p{
+    text-align: center
+    
+}
+.name{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: row;
+}
+.first-nam{
+   display: flex;
+   flex-direction: column;
+   margin-right: 2rem;
+   
+}
+.last-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.e-mail{
+    margin-top: 1.5rem;
+   
+    
+}
+.service-news{
+    display: flex;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.button{
+    color:white;
+    background-color: purple;
+    width:100%; 
+    height:100%;
+    font-size: 24px ;
+    border: 1px solid;
+    border-radius: 12px;
+    
+}
+.button:hover{
+    background-color: yellow;
+    color: purple;
+    border:solid purple 2px;
+}
+
