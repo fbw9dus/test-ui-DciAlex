@@ -19,14 +19,24 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   25/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
-- [_] (10) Tags nicht geschlossen oder falsch verschachtelt
+- [x] (25) Elemente passen sich nicht an Fensterbreite an
+```
+- Zusätzlich ist die Anordnung der Formularfelder in keiner Fensterbreite richtig
+- In allen Fensterbreiten fehlt Abstand zwischen Text und linkem Fensterrand
+```
+- [x] (5) Tags nicht geschlossen oder falsch verschachtelt
+```diff
+- In UL fürfen nur LI stehen, da der Tag ausschließlich für Listen benutzt wird
+```
 - [_] (5) Block-Tag in Inline-Tag
 - [_] (5) Kinder-Tags im Code nicht eingerückt
 - [_] (10) Zweckfremde Tags verwendet
-- [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
+- [x] (5) Fehlende essetielle Tags (z.B. Meta-Tags)
+```diff
+- Um die Formularelemente fehlt ein form-Tag
+```
 - [_] (5) Falsche Datei-Pfade
 - [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
 - [_] (5) Fehlende essentielle Tag-Attribute
